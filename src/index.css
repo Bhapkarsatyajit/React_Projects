@@ -11,3 +11,125 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #23252C;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #23252C;
+  width: 500px;
+  margin: 10px;
+  font-size: 30px;
+  font-style: calc();
+}
+
+.Header-name{
+  margin: 0;
+  color: aliceblue;
+  line-height: 35px;
+  text-align: center;
+}
+
+.Header-image
+{
+  margin: 0;
+  text-align: center;
+}
+
+.header_div 
+{
+  text-align: center;
+}
+
+.Header-profile{
+  color: rgb(55, 132, 199);
+  font-family:monospace;
+  font-style: italic;
+  font-size: large;
+  
+}
+
+.Header-website
+{
+  color: rgb(197, 213, 226);
+  margin: 0;
+  line-height: 35px;
+  
+}
+
+.Linkdin-button
+{
+width: 115px;
+height: 50px;
+left: 283px;
+background: #86a8cf;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.Email_button
+{
+width: 115px;
+height: 50px;
+top: 468px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+border-radius: 6px;
+
+margin-left: 100px !important;
+}
+
+.Email-Img{
+  width: 15px;
+}
+
+.div-main > button {
+margin: 15px;
+}
+
+.Linkdin-Img {
+  width: 10px;
+}
+
+.Interest_about
+{
+  width: 242.71px;
+  top: 535px;
+  color:aliceblue;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px !important;
+
+}
+
+.Interest_para
+{
+color: aliceblue;
+width: 247px;
+
+left: 152px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 450;
+
+text-align: center !important;
+}
+
+.div_interest
+{
+
+width: 317px;
+height: 399px;
+left: 116px;
+top: 361px;
+text-align: left;
+margin-left: 10% !important;
+}
